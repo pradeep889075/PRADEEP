@@ -1,0 +1,70 @@
+<style>
+    /* CSS Code */
+    /* Heading */
+    h1 {
+        color: greenyellow;
+        font-size: 45px;
+    }
+ 
+    /* 3*3 Grid */
+    #b1, #b2, #b3, #b4, #b5,
+    #b6, #b7, #b8, #b9 {
+        width: 80px;
+        height: 52px;
+        margin: auto;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        border: 2px solid black;
+        border-radius: 6px;
+        font-size: 30px;
+        text-align: center;
+        background-color: yellow;
+    }
+ 
+    /* Reset Button */
+    #but {
+        box-sizing: border-box;
+        width: 95px;
+        height: 40px;
+        border: 1px solid mediumturquoise ;
+        margin: auto;
+        border-radius: 4px;
+        font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+ 
+        background-color: mediumturquoise;
+        color: white;
+        font-size: 20px;
+        cursor: pointer;
+        background-color: orangered;
+    }
+ 
+    /* Player turn space */
+    #print {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+        color: mediumturquoise;
+        font-size: 20px;
+    }
+ 
+    /* Main Container */
+    #main {
+        text-align: center;
+    }
+ 
+    /* Game Instruction Text */
+    #ins {
+        font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             
+        color: mediumturquoise;
+        font-size: 1
+    }
+    .X{
+        color:darkturquoise;
+    }
+    .o{
+        color: aqua;
+    }
+</style>
